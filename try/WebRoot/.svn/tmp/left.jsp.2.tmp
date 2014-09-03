@@ -1,0 +1,230 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>折叠菜单</title>
+		<link href="css/stylesheets.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+/*		
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px/ 22px "Microsoft YaHei", arial, serif;
+}
+
+a,a:link,a:visited {
+	color: #ccc;
+	text-decoration: none;
+}*/
+
+.content {
+	position:relative;
+	right:15px;
+	margin: 50px auto;
+	width: 200px;
+	height: auto;
+	margin-left:0px;
+	padding-left: 0px;
+}
+
+.content>ul {
+	list-style: none;
+}
+
+.content .menu-one>li {
+	width: 200px;
+	height: auto;
+	overflow: hidden;
+	border-top: 1px solid #888;
+	float:left;
+}
+
+.content .menu-one>li.firstChild {
+	border: 0;
+}
+
+.content .menu-one .header {
+	height: 35px;
+	background: #666;
+	line-height: 34px;
+	text-indent: 15px;
+	cursor: pointer;
+}
+
+.content .menu-one .header>span {
+	display: block;
+}
+
+.content .menu-one .header .txt {
+	float: left;
+	color: #fff;
+}
+
+.content .menu-one .header .arrow {
+	float: right;
+	width: 35px;
+	height: 35px;
+	background: url(img/arrow-d.png) no-repeat center center;
+}
+
+.content .menu-two {
+	position:relative;
+	right:40px;
+	display: none;
+	width: 220px;
+	height: auto;
+}
+
+.content .menu-two li {
+	width: 220px;
+	height: 35px;
+	background: #eee;
+	border-top: 1px solid #ccc;
+	line-height: 34px;
+	text-indent: 40px;
+}
+
+.content .menu-two li a{
+	color:#f35858;
+	
+	
+}
+
+.content .menu-two li.firstChild {
+	border: 0;
+}
+
+.special {
+	display: block;
+	color: #888;
+}
+
+.content .menu-show .header {
+	background: #777;
+}
+
+.content .menu-show .header .arrow {
+	background-image: url(img/arrow-u.png);
+}
+</style>
+	<body>
+		<div class="sidebar1">
+		
+			<!-- logo & search -->
+			<div class="top">
+				<a href="index-2.html" class="logo"><img src="login/img/logo.png"/><h3 style="color:white;margin-left:50px">rose&you</h3></a>
+				
+			</div>
+			
+			
+			<!-- 导航树 -->
+			<div class="content" style="">
+					
+				<ul class="menu-one">
+
+				</ul>
+			</div>
+					
+			<!-- <a class="close"> <span class="ico-remove"></span> </a>
+			<div style="height:50px;"></div> -->
+			<!-- 日期 -->
+			<div class="widget" style="margin-top:250px;">
+				<div class="datepicker"></div>
+
+			</div>
+		</div>
+
+	</body>
+</html> 
+<script type="text/javascript" src="js/jquery-1.10.1.min.js">
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jquery/jquery-1.9.1.min.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jquery/jquery-ui-1.10.1.custom.min.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jquery/jquery-migrate-1.1.1.min.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/jquery/globalize.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/other/excanvas.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/other/jquery.mousewheel.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/bootstrap/bootstrap.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/cookies/jquery.cookies.2.2.0.min.js'>
+</script>
+
+		<script type='text/javascript' src='js/plugins/jflot/jquery.flot.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jflot/jquery.flot.stack.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jflot/jquery.flot.pie.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jflot/jquery.flot.resize.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/sparklines/jquery.sparkline.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src="js/plugins/uniform/jquery.uniform.min.js">
+</script>
+
+		<script type='text/javascript' src='js/plugins/shbrush/XRegExp.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/shbrush/shCore.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/shbrush/shBrushXml.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/shbrush/shBrushJScript.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/shbrush/shBrushCss.js'>
+</script>
+
+		<script type='text/javascript' src='js/plugins.js'>
+</script>
+		
+		<script type='text/javascript' src='js/zchart.js'>
+</script>
+
+		<script type='text/javascript' src='js/actions.js'>
+</script>
+
+		<script type="text/javascript" src="js/slider.js">
+		</script>
+		<script type='text/javascript' src='js/plugins/other/faq.js'>
+</script>
+     <script type='text/javascript' src='js/table.js'>
+</script>
+
+<script language="javascript" type="text/javascript"
+	src="My97DatePicker/WdatePicker.js">
+</script>

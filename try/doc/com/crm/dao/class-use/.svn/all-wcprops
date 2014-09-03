@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use
+END
+IRoleRightDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IRoleRightDao.html
+END
+IProductDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IProductDao.html
+END
+IRoleDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IRoleDao.html
+END
+IWorkDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IWorkDao.html
+END
+IOrdrDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IOrdrDao.html
+END
+IPersonDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IPersonDao.html
+END
+IProOrdrDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IProOrdrDao.html
+END
+ILinkmanDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/ILinkmanDao.html
+END
+IPlanDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IPlanDao.html
+END
+IStepDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IStepDao.html
+END
+IRightDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IRightDao.html
+END
+IClientDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/IClientDao.html
+END
+ITaskListDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/class-use/ITaskListDao.html
+END

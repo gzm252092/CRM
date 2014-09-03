@@ -1,0 +1,82 @@
+/* please use this file for your own styles 
+ * it's need for easiest update of newest wersions
+*/
+
+body {	
+	width: 1000px;
+	margin: 100px auto;
+}
+
+/************************************************************************************
+FORM STYLE BEGIN
+*************************************************************************************/
+	/* input styles */
+.dt input[type="text"],.dt textarea,.dt select {
+	background: #f4f4f4;
+	border: solid 1px #a3a3a3;
+	padding: 5px 10px;
+	font: 15px "Times New Roman", Times, serif;
+	-webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, .1);
+	-moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, .1);
+	box-shadow: inset 0 2px 3px rgba(0, 0, 0, .1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-appearance: none; /* reset webkit search style */
+}
+
+/* input:focus styles */
+.dt input[type="text"]:focus,.dt textarea:focus {
+	background: #fff;
+	border-color: #333;
+	outline: none; /* remove outline */
+}
+
+/* set field width */
+.dt textarea {
+	width: 350px;
+	height: 100px;
+}
+
+.dt label {
+	color: #666;
+	font-family: "ËÎÌו";
+}
+.dt b{
+	font-family: "????";
+	margin-right: 5px;
+	font-weight: normal;
+	color: #F00;
+	font-size:14px;
+	}
+.dt td{
+	height:30px;
+	padding:4px 7px;
+}
+/* Buttons */
+.btn {
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Á¥Êי";
+	height: 30px;
+	background-color: #008DC4;
+}
+
+.btn_h {
+	background-color: red;
+}
+
+.btn_d {
+	background-color: #008DC4;
+}
+
+.tb td{
+	border-bottom:solid 1px #666;
+	height:30px;
+	padding:4px 7px;
+}
+.tb label {
+	color: #666;
+	font-family: "ËÎÌו";
+}
+

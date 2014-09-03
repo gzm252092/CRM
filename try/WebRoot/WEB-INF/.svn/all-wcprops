@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/b2c/!svn/ver/273/try/WebRoot/WEB-INF
+END
+spring.tld
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/273/try/WebRoot/WEB-INF/spring.tld
+END
+spring-form.tld
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/273/try/WebRoot/WEB-INF/spring-form.tld
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/273/try/WebRoot/WEB-INF/web.xml
+END

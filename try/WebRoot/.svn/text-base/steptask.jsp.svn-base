@@ -1,0 +1,218 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+	request.setCharacterEncoding("UTF-8");
+	response.setCharacterEncoding("UTF-8");
+%>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>员工管理</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<link rel="icon" href="http://www.xiaomi.com/favicon.ico"
+			type="image/x-icon">
+<link href="css/stylesheets.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body style="padding-left:100px;padding-top:40px;padding-right:100px;">
+		<div id="loader">
+			<img src="img/loader.gif" />
+		</div>
+		<div class="page-header">
+                    <div class="icon">
+                        <span class="ico-chart-2"></span>
+                    </div>
+                    <h1 style="font-family: 'Segoe UI', arial, sans-serif;">我的任务 <small>CUSTOMER RELATIONSHIP MANAGEMENT</small></h1>
+       </div>
+		
+						<form id="form">
+							<div class="head purple" style="margin-top:100px">
+								<h3 style="font-size:20px">
+									未完成的计划
+								</h3>
+							</div>
+						
+							<table cellpadding="0" cellspacing="0" width="100%"
+											class="table table-hover" id="unfinished">
+								<thead style="font-size:14px;font-weight:bold">
+									<tr >
+										<td width="10%">
+											编号
+										</td>
+										<td width="10%">
+											名称
+										</td>
+										<td width="10%">
+											客户姓名
+										</td>
+										<td width="10%">
+											开始时间
+										</td>
+										<td width="10%">
+											描述
+										</td>
+										<td width="10%">
+											几率
+										</td>
+										<td width="10%">
+											分配者
+										</td>
+										<td width="10%">
+											操作
+										</td>
+										
+									</tr>
+								</thead>
+								<tbody id="tbody">
+									<tr>
+										<td>
+											
+										</td>
+										<td>
+											
+										</td>
+										<td>
+											
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+
+						</form>
+					
+
+	</body>
+</html>
+ 
+<script type="text/javascript" src="js/jquery-1.10.1.min.js">
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jquery/jquery-1.9.1.min.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jquery/jquery-ui-1.10.1.custom.min.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jquery/jquery-migrate-1.1.1.min.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/jquery/globalize.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/other/excanvas.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/other/jquery.mousewheel.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/bootstrap/bootstrap.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/cookies/jquery.cookies.2.2.0.min.js'>
+</script>
+
+		<script type='text/javascript' src='js/plugins/jflot/jquery.flot.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jflot/jquery.flot.stack.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jflot/jquery.flot.pie.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/jflot/jquery.flot.resize.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/sparklines/jquery.sparkline.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src='js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js'>
+</script>
+
+		<script type='text/javascript'
+			src="js/plugins/uniform/jquery.uniform.min.js">
+</script>
+
+		<script type='text/javascript' src='js/plugins/shbrush/XRegExp.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/shbrush/shCore.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/shbrush/shBrushXml.js'>
+</script>
+		<script type='text/javascript'
+			src='js/plugins/shbrush/shBrushJScript.js'>
+</script>
+		<script type='text/javascript' src='js/plugins/shbrush/shBrushCss.js'>
+</script>
+
+		<script type='text/javascript' src='js/plugins.js'>
+</script>
+		
+		<script type='text/javascript' src='js/zchart.js'>
+</script>
+
+		<script type='text/javascript' src='js/actions.js'>
+</script>
+
+		<script type="text/javascript" src="js/slider.js">
+		</script>
+		<script type='text/javascript' src='js/plugins/other/faq.js'>
+</script>
+     <script type='text/javascript' src='js/table.js'>
+</script>
+
+<script language="javascript" type="text/javascript"
+	src="My97DatePicker/WdatePicker.js">
+</script>
+<script type="text/javascript" src="../d/jquery-1.8.3.js">
+</script>
+<script type="text/javascript">
+var unhandle;
+
+function fullunhandleplan(levs) {
+	$("#tbody tr").remove();
+	
+	for ( var index = 0; index < levs.length; index++) {
+		var evo = levs[index];
+	
+		var tr = " <tr><td>" + evo.id + "</td><td>" + evo.name + "</td>	<td>"
+				+ evo.clientname + "</td>	<td>" + evo.stime + "</td><td>"
+				+ evo.descr + "</td><td>" + evo.chance + "</td><td>"
+			    + evo.worker + "</td><td>"
+				+ "<a role='button' class='buttonsmall' href='makestep.jsp?pid=" + evo.id
+				+ "&role=person '> &nbsp;do </a>  </td>	</tr>";
+
+		$("#tbody").append(tr);
+
+	}
+}
+function listpersontask(){
+var rid='<%=request.getParameter("roid")%>';
+var data="user="+rid;
+$.ajax( {
+		type : "POST",
+		url : "work_listpersontask.action",
+		dataType : "json",
+		data:data,
+		success : function(data) {
+			unhandle = data.unhandle;
+			fullunhandleplan(unhandle);
+	
+			
+		}
+	});
+}
+$(document).ready(function() {
+listpersontask();
+ //setInterval("listpersontask()",10000);
+	
+
+});
+</script>
+

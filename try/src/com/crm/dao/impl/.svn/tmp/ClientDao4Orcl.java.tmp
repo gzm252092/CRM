@@ -1,0 +1,95 @@
+package com.crm.dao.impl;
+
+import java.io.Serializable;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.springframework.orm.hibernate3.HibernateCallback;
+import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+
+import com.crm.dao.IClientDao;
+import com.crm.dao.IPlanDao;
+
+import com.crm.po.Client;
+import com.crm.po.Pln;
+
+
+public class ClientDao4Orcl extends HibernateDaoSupport implements
+		IClientDao {
+
+	@SuppressWarnings("unchecked")
+	public List<Client> findall(final int offset, final int length) {
+		final String hql = " from Client ";
+		List<Client> list = getHibernateTemplate().executeFind(
+				new HibernateCallback() {
+					public List<Client> doInHibernate(Session session)
+							throws HibernateException, SQLException {
+						Query query = session.createQuery(hql);
+						query.setFirstResult(offset);
+						query.setMaxResults(length);
+						List<Client> list = query.list();
+						return list;
+					}
+				});
+		return list;
+	}
+
+	public int getAllRowCount(String hql) {
+		return getHibernateTemplate().find(hql).size();
+	}
+
+	public Serializable addClient(Client client) {
+		return getHibernateTemplate().save(client);
+	}
+
+	public void modClient(Client client) {
+		getHibernateTemplate().update(client);
+	}
+
+	public void delClient(long clientid) {
+		Client e = getbyid(clientid);
+		getHibernateTemplate().delete(e);
+
+	}
+
+	public Client getbyid(long clientid) {
+		return (Client) getHibernateTemplate().get(Client.class, clientid);
+	}
+	public List<Map> getRegion(){
+		 final String hql = " select new map(count(id), region) from Client group by region order by count(id) desc";
+		 
+		 List<Map> list = getHibernateTemplate().executeFind(
+					new HibernateCallback() {
+						public List<Map> doInHibernate(Session session)
+								throws HibernateException, SQLException {
+							Query query= session.createQuery(hql);
+							List<Map> list = query.list();
+							return list;
+						}
+					});
+		 
+		 return list;
+	}
+
+	@SuppressWarnings("unchecked")
+	public List<Client> findNewClient() {
+		// TODO Auto-generated method stub
+		List<Client> newclients = new ArrayList<Client>();
+		final String hql = " from Client ";
+		List<Client> list = getHibernateTemplate().find(hql);
+		for(int i=0;i<list.size();i++){
+			if(list.get(i).getPersonid()==0){//如果为空
+				newclients.add(list.get(i));
+			}
+		}
+		return newclients;
+	}
+
+	
+
+}

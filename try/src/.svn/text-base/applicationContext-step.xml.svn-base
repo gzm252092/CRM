@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id="stepAction" class="com.crm.action.StepAction">
+		<property name="stepService" ref="stepService"></property>
+		<property name="planService" ref="planService"></property>
+	</bean>
+	
+	<bean class="com.crm.service.impl.StepService"  id="stepService">
+		<property name="stepDao" ref="stepDao"></property>
+		
+	</bean>
+	<bean class="com.crm.service.impl.PlnService"  id="planService">
+		<property name="planDao" ref="planDao"></property>
+		
+	</bean>
+	<bean class="com.crm.dao.impl.StepDao4Orcl"  id="stepDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean class="com.crm.dao.impl.PlanDao4Orcl"  id="planDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	
+	 
+</beans>

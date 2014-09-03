@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/b2c/!svn/ver/629/try/src/com/crm/service/impl
+END
+ClientService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/b2c/!svn/ver/629/try/src/com/crm/service/impl/ClientService.java
+END
+WorkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/405/try/src/com/crm/service/impl/WorkService.java
+END
+ProOrdrService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/b2c/!svn/ver/602/try/src/com/crm/service/impl/ProOrdrService.java
+END
+LinkmanService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/b2c/!svn/ver/422/try/src/com/crm/service/impl/LinkmanService.java
+END
+PlnService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/627/try/src/com/crm/service/impl/PlnService.java
+END
+NaviService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/441/try/src/com/crm/service/impl/NaviService.java
+END
+AuthManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/b2c/!svn/ver/352/try/src/com/crm/service/impl/AuthManagementService.java
+END
+RoleManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/b2c/!svn/ver/417/try/src/com/crm/service/impl/RoleManagementService.java
+END
+TaskListService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/b2c/!svn/ver/523/try/src/com/crm/service/impl/TaskListService.java
+END
+HrManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/b2c/!svn/ver/599/try/src/com/crm/service/impl/HrManagementService.java
+END
+OrdrService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/573/try/src/com/crm/service/impl/OrdrService.java
+END
+PersonService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/b2c/!svn/ver/482/try/src/com/crm/service/impl/PersonService.java
+END
+PageManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/b2c/!svn/ver/363/try/src/com/crm/service/impl/PageManagementService.java
+END
+StepService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/402/try/src/com/crm/service/impl/StepService.java
+END
+ClientMapService.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/b2c/!svn/ver/506/try/src/com/crm/service/impl/ClientMapService.java
+END

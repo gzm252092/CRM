@@ -1,0 +1,25 @@
+package com.crm.service;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+
+import com.crm.po.Client;
+import com.crm.util.Page;
+import com.crm.vo.ClientLostVo;
+
+
+public interface IClientService {
+
+	public Page findall(int pageSize,int currentPage);
+	public Serializable addClient(Client client);
+	public void modClient(Client client);
+    public List getRegions();
+	public void delClient(long clientid);
+<<<<<<< .mine
+	public void modClient(long cid,long pid);
+=======
+	public List<ClientLostVo> findlostClient();
+	
+>>>>>>> .r335
+}

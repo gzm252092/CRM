@@ -1,0 +1,323 @@
+@charset 'UTF-8';
+
+
+/**/
+
+/*       'Open Sans', sans-serif     */
+
+
+
+@import "../css/reset.css";
+@import "../css/grid.css";
+
+@import "../css/font-awesome.css";
+
+
+html {
+	width: 100%;
+}
+
+
+
+
+
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('font/fontawesome-webfont.eot?v=3.2.1');
+	src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+	Telephasic 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	
+
+	header
+	{
+	}
+	
+		header > span
+		{
+			display: block;
+			color: #f34848;
+		}
+
+		header.major
+		{
+			text-align: center;
+		}
+
+	.feature
+	{
+		text-align: center;
+	}
+	
+	
+	/* Images */
+
+		.image
+		{
+			display: inline-block;
+			-moz-transition: opacity 0.25s ease-in-out;
+			-webkit-transition: opacity 0.25s ease-in-out;
+			-o-transition: opacity 0.25s ease-in-out;
+			-ms-transition: opacity 0.25s ease-in-out;
+			transition: opacity 0.25s ease-in-out;
+			outline: 0;
+			border: 0;
+		}
+		
+			.image img
+			{
+				display: block;
+				width: 100%;
+			}
+
+			.image.full
+			{
+				display: block;
+				width: 100%;
+				margin: 0 0 3em 0;
+			}
+			
+			.image.left
+			{
+				float: left;
+				margin: 0 2em 2em 0;
+			}
+			
+			.image.centered
+			{
+				display: block;
+				margin: 0 0 3em 0;
+			}
+
+				.image.centered img
+				{
+					margin: 0 auto;
+					width: auto;
+				}
+
+			a.image:hover
+			{
+				opacity: 0.85;
+			}
+
+	/* Buttons */
+		
+		.button
+		{
+			display: inline-block;
+			color: inherit;
+			text-decoration: none;
+			border: solid 1px #c2c7cc;
+			border-radius: 0.35em;
+			padding: 0.8em 2em 0.8em 2em;
+		}
+		
+
+			.button:hover
+			{
+				color: #f35858;
+				border-color: rgba(243,88,88,0.5);
+			}
+			
+			.buttonsmall
+			{
+			display: inline-block;
+			color: inherit;
+			text-decoration: none;
+			border: solid 1px #c2c7cc;
+			border-radius: 0.35em;
+			padding: 0.2em 0.7em 0.2em 0.7em;
+			width:50px;
+			}
+			
+			.buttonsmall:hover
+			{
+				color: #f35858;
+				border-color: rgba(243,88,88,0.5);
+			}
+			
+			.bmedium
+			{
+			display: inline-block;
+			color: inherit;
+			text-decoration: none;
+			border: solid 1px #c2c7cc;
+			border-radius: 0.35em;
+			padding: 0.2em 0.2em 0.2em 0.2em;
+			width:80px;
+			}
+			
+			.bmedium:hover
+			{
+				color: #f35858;
+				border-color: rgba(243,88,88,0.5);
+			}
+			
+			
+			
+			.button:active
+			{
+			}
+		
+			.button.alt
+			{
+			}
+
+				.button.alt:hover
+				{
+				}
+				
+				.button.alt:active
+				{
+				}
+		
+			
+			
+			.button.big
+			{
+			}
+			
+			.button.huge
+			{
+			}
+
+
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	
+
+	.image-wrapper
+	{
+		position: relative;
+	}
+	
+		.image-wrapper .image
+		{
+			position: relative;
+			z-index: 2;
+		}
+	
+		.image-wrapper.first:before
+		{
+			content: '';
+			display: block;
+			width: 2000%;
+			height: 100%;
+			position: absolute;
+			left: -1000%;
+			top: 0;
+			z-index: 1;
+			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
+			background: #f6f8fb url('images/image-wrapper.svg');
+		}
+
+	#header-wrapper
+	{
+		position: relative;
+		background: #f08c89;
+		background-image: url('images/header.svg');
+		background-image: url('images/header.svg'), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url('images/header.svg'), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url('images/header.svg'), -o-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url('images/header.svg'), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url('images/header.svg'), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+	}
+	
+		#header-wrapper:before
+		{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			background-size: 128px 128px;
+		}
+	
+	#promo-wrapper
+	{
+		position: relative;
+		background: url('../images/promo.jpg') center center;
+		background-size: cover;
+		color: #fff;
+		text-align: center;
+	}
+
+	#footer-wrapper
+	{
+		position: relative;
+		border-top: solid 1px #c2c7cc;
+		background-image: url('images/footer.svg');
+		background-size: 100% 100%;
+		-webkit-transform: translate3d(0,0,0);
+		height:150px;
+	}
+
+		#footer-wrapper:before
+		{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			background-size: 128px 128px;
+		}
+
+		#footer-wrapper form input.text,
+		#footer-wrapper form select,
+		#footer-wrapper form textarea
+		{
+			background: #f5f6f7;
+		}
+
+			#footer-wrapper form input.text:focus,
+			#footer-wrapper form select:focus,
+			#footer-wrapper form textarea:focus
+			{
+				background: #fff;
+			}
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		position: relative;
+		z-index: 1;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		position: relative;
+		z-index: 1;
+		text-align: center;
+		border-top: solid 1px #d2d7dc;
+		color: #a2a7ac;
+	}

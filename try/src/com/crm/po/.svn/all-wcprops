@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/b2c/!svn/ver/611/try/src/com/crm/po
+END
+Step.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/b2c/!svn/ver/547/try/src/com/crm/po/Step.hbm.xml
+END
+RoleRight.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/348/try/src/com/crm/po/RoleRight.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/b2c/!svn/ver/339/try/src/com/crm/po/Role.java
+END
+Right.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/b2c/!svn/ver/345/try/src/com/crm/po/Right.hbm.xml
+END
+Client.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/611/try/src/com/crm/po/Client.hbm.xml
+END
+Product.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/b2c/!svn/ver/537/try/src/com/crm/po/Product.hbm.xml
+END
+Ordr.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/b2c/!svn/ver/446/try/src/com/crm/po/Ordr.java
+END
+Person.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/338/try/src/com/crm/po/Person.java
+END
+Code.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/b2c/!svn/ver/523/try/src/com/crm/po/Code.java
+END
+Step.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/b2c/!svn/ver/295/try/src/com/crm/po/Step.java
+END
+ProOrdr.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/b2c/!svn/ver/547/try/src/com/crm/po/ProOrdr.hbm.xml
+END
+Right.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/b2c/!svn/ver/341/try/src/com/crm/po/Right.java
+END
+Linkman.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/b2c/!svn/ver/611/try/src/com/crm/po/Linkman.hbm.xml
+END
+Pln.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/483/try/src/com/crm/po/Pln.hbm.xml
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/432/try/src/com/crm/po/Client.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/b2c/!svn/ver/428/try/src/com/crm/po/Product.java
+END
+RoleRight.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/483/try/src/com/crm/po/RoleRight.hbm.xml
+END
+Role.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/b2c/!svn/ver/289/try/src/com/crm/po/Role.hbm.xml
+END
+ProOrdr.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/b2c/!svn/ver/327/try/src/com/crm/po/ProOrdr.java
+END
+Pln.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/406/try/src/com/crm/po/Pln.java
+END
+Linkman.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/b2c/!svn/ver/302/try/src/com/crm/po/Linkman.java
+END
+Person.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/547/try/src/com/crm/po/Person.hbm.xml
+END
+Ordr.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/b2c/!svn/ver/537/try/src/com/crm/po/Ordr.hbm.xml
+END
+Code.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/b2c/!svn/ver/523/try/src/com/crm/po/Code.hbm.xml
+END

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="linkmans" namespace="/" extends="struts-default">
+        <action name="linkmans_*" class="linkmanAction"  method="{1}">
+                
+         <result  name="get" type="redirectAction" >linkmans_find.action</result>
+         <result name="links" >linkmans.jsp</result>
+        </action>
+        
+    </package>
+    <package name="linkmansjson" namespace="/" extends="json-default">
+    <action name="linkmans!*" class="linkmanAction"  method="{1}">
+        <result name="json" type="json"></result>
+     </action>
+    </package>
+</struts>

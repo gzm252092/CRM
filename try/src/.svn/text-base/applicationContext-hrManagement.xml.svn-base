@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id="hrLoadAction" class="com.crm.action.HrLoadAction">
+		<property name="hrservice" ref="hrService"></property>
+	</bean>
+	
+	<bean id="hrDelAction" class="com.crm.action.HrDelAction">
+		<property name="hrservice" ref="hrService"></property>
+	</bean>
+	
+	<bean id="hrAddAction" class="com.crm.action.HrAddAction">
+		<property name="hrservice" ref="hrService"></property>
+	</bean>
+	
+	<bean id="hrEditAction" class="com.crm.action.HrEditAction">
+		<property name="hrservice" ref="hrService"></property>
+	</bean>
+
+	<bean class="com.crm.service.impl.HrManagementService"  id="hrService">
+		<property name="clientdao" ref="clientDao"></property>
+		<property name="roledao" ref="roleDao"></property>
+		<property name="persondao" ref="personDao"></property>
+	</bean>
+	
+	<bean class="com.crm.dao.impl.PersonDao4Orcl"  id="personDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean class="com.crm.dao.impl.RoleDao4Orcl"  id="roleDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean class="com.crm.dao.impl.ClientDao4Orcl"  id="clientDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	 
+</beans>

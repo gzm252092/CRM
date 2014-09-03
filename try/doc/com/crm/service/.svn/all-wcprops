@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service
+END
+IWorkService.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IWorkService.html
+END
+IProOrdrService.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IProOrdrService.html
+END
+IPlnService.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IPlnService.html
+END
+ILinkmanService.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/ILinkmanService.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/package-summary.html
+END
+INaviService.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/INaviService.html
+END
+ITaskListService.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/ITaskListService.html
+END
+IRoleManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IRoleManagementService.html
+END
+IAuthManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IAuthManagementService.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/package-tree.html
+END
+IPersonService.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IPersonService.html
+END
+IOrdrService.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IOrdrService.html
+END
+IHrManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IHrManagementService.html
+END
+IPageManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IPageManagementService.html
+END
+IStepService.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IStepService.html
+END
+IClientMapService.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IClientMapService.html
+END
+IClientService.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/IClientService.html
+END

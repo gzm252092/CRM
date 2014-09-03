@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/b2c/!svn/ver/625/try/src/com/crm/vo
+END
+PlanVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/406/try/src/com/crm/vo/PlanVo.java
+END
+ProOrdreVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/b2c/!svn/ver/429/try/src/com/crm/vo/ProOrdreVo.java
+END
+RoleManagementVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/416/try/src/com/crm/vo/RoleManagementVo.java
+END
+AuthManagementVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/305/try/src/com/crm/vo/AuthManagementVo.java
+END
+TwoMenuVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/305/try/src/com/crm/vo/TwoMenuVo.java
+END
+OneNaviVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/441/try/src/com/crm/vo/OneNaviVo.java
+END
+RoleVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/341/try/src/com/crm/vo/RoleVo.java
+END
+HrManagementVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/300/try/src/com/crm/vo/HrManagementVo.java
+END
+PersonVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/b2c/!svn/ver/482/try/src/com/crm/vo/PersonVo.java
+END
+OneMenuVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/305/try/src/com/crm/vo/OneMenuVo.java
+END
+TwoPageVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/353/try/src/com/crm/vo/TwoPageVo.java
+END
+OrdrVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/577/try/src/com/crm/vo/OrdrVo.java
+END
+PageManagementVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/309/try/src/com/crm/vo/PageManagementVo.java
+END
+StepVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/b2c/!svn/ver/376/try/src/com/crm/vo/StepVo.java
+END
+ClientMapVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/507/try/src/com/crm/vo/ClientMapVo.java
+END
+ClientVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/b2c/!svn/ver/625/try/src/com/crm/vo/ClientVo.java
+END
+OnePageVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/353/try/src/com/crm/vo/OnePageVo.java
+END
+ProductVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/568/try/src/com/crm/vo/ProductVo.java
+END
+ClientLostVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/432/try/src/com/crm/vo/ClientLostVo.java
+END
+RoleAuthVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/b2c/!svn/ver/341/try/src/com/crm/vo/RoleAuthVo.java
+END
+TwoNaviVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/441/try/src/com/crm/vo/TwoNaviVo.java
+END
+NewClientVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/341/try/src/com/crm/vo/NewClientVo.java
+END
+LinkmanVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/313/try/src/com/crm/vo/LinkmanVo.java
+END

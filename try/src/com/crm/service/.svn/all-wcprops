@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/b2c/!svn/ver/629/try/src/com/crm/service
+END
+IHrManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IHrManagementService.java
+END
+IOrdrService.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IOrdrService.java
+END
+IPersonService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IPersonService.java
+END
+IPageManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IPageManagementService.java
+END
+IStepService.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IStepService.java
+END
+IClientMapService.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IClientMapService.java
+END
+IClientService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/629/try/src/com/crm/service/IClientService.java
+END
+IWorkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IWorkService.java
+END
+IProOrdrService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IProOrdrService.java
+END
+ILinkmanService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/ILinkmanService.java
+END
+IPlnService.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IPlnService.java
+END
+INaviService.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/INaviService.java
+END
+IAuthManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IAuthManagementService.java
+END
+IRoleManagementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/IRoleManagementService.java
+END
+ITaskListService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/596/try/src/com/crm/service/ITaskListService.java
+END

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id="pageLoadAction" class="com.crm.action.PageLoadAction">
+		<property name="pageservice" ref="pageService"></property>
+	</bean>
+	<bean id="pageDelAction" class="com.crm.action.PageDelAction">
+		<property name="pageservice" ref="pageService"></property>
+	</bean>
+	<bean id="pageAddAction" class="com.crm.action.PageAddAction">
+		<property name="pageservice" ref="pageService"></property>
+	</bean>
+	<bean id="pageEditAction" class="com.crm.action.PageEditAction">
+		<property name="pageservice" ref="pageService"></property>
+	</bean>
+	
+	
+	<bean class="com.crm.service.impl.PageManagementService"  id="pageService">
+		<property name="rightdao" ref="rightDao"></property>
+		
+	</bean>
+	
+	<bean class="com.crm.dao.impl.RightDao4Orcl"  id="rightDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	
+	 
+</beans>

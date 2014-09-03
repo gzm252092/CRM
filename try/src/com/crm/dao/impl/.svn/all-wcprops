@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/b2c/!svn/ver/629/try/src/com/crm/dao/impl
+END
+ProOrdrDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/573/try/src/com/crm/dao/impl/ProOrdrDao4Orcl.java
+END
+LinkmanDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/impl/LinkmanDao4Orcl.java
+END
+PlanDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/627/try/src/com/crm/dao/impl/PlanDao4Orcl.java
+END
+TaskListDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/523/try/src/com/crm/dao/impl/TaskListDao.java
+END
+StepDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/402/try/src/com/crm/dao/impl/StepDao4Orcl.java
+END
+RightDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/404/try/src/com/crm/dao/impl/RightDao4Orcl.java
+END
+ClientDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/629/try/src/com/crm/dao/impl/ClientDao4Orcl.java
+END
+WorkDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/b2c/!svn/ver/523/try/src/com/crm/dao/impl/WorkDao.java
+END
+RoleRightDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/b2c/!svn/ver/352/try/src/com/crm/dao/impl/RoleRightDao4Orcl.java
+END
+ProductDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/605/try/src/com/crm/dao/impl/ProductDao4Orcl.java
+END
+RoleDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/417/try/src/com/crm/dao/impl/RoleDao4Orcl.java
+END
+OrdrDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/573/try/src/com/crm/dao/impl/OrdrDao4Orcl.java
+END
+PersonDao4Orcl.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/b2c/!svn/ver/400/try/src/com/crm/dao/impl/PersonDao4Orcl.java
+END

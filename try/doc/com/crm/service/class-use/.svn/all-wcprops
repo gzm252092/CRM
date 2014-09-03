@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use
+END
+IWorkService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IWorkService.html
+END
+IProOrdrService.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IProOrdrService.html
+END
+IPlnService.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IPlnService.html
+END
+ILinkmanService.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/ILinkmanService.html
+END
+INaviService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/INaviService.html
+END
+ITaskListService.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/ITaskListService.html
+END
+IRoleManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IRoleManagementService.html
+END
+IAuthManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IAuthManagementService.html
+END
+IPersonService.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IPersonService.html
+END
+IOrdrService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IOrdrService.html
+END
+IHrManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IHrManagementService.html
+END
+IPageManagementService.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IPageManagementService.html
+END
+IStepService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IStepService.html
+END
+IClientMapService.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IClientMapService.html
+END
+IClientService.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/b2c/!svn/ver/596/try/doc/com/crm/service/class-use/IClientService.html
+END

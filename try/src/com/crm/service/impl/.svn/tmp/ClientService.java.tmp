@@ -1,0 +1,115 @@
+package com.crm.service.impl;
+
+import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.BeanUtils;
+
+import com.crm.dao.impl.ClientDao4Orcl;
+import com.crm.po.Client;
+import com.crm.service.IClientService;
+import com.crm.util.Page;
+import com.crm.vo.ClientLostVo;
+
+public class ClientService implements IClientService {
+
+	private ClientDao4Orcl clientDao;
+
+	public ClientDao4Orcl getClientDao() {
+		return clientDao;
+	}
+
+	public void setClientDao(ClientDao4Orcl clientDao) {
+		this.clientDao = clientDao;
+	}
+
+	public Page findall(int pageSize, int page) {
+        String hql="FROM Client";
+        System.out.println("xxxxxxxx");
+		int allRow = clientDao.getAllRowCount(hql);// �ܼ�¼��
+		
+		int totalPage = Page.countTotalPage(pageSize, allRow);// ��ҳ��
+		final int offset = Page.countOffset(pageSize, page);// ��ǰҳ��ʼ��¼
+		final int length = pageSize;// ÿҳ��¼��
+	
+		final int currentPage = Page.countCurrentPage(page);
+		List<Client> list = clientDao.findall(offset, length);// "һҳ"�ļ�¼
+		System.out.println(list.size());
+		// �ѷ�ҳ��Ϣ���浽Bean��
+		Page pageBean = new Page();
+		pageBean.setPageSize(pageSize);
+		pageBean.setCurrentPage(currentPage);
+		pageBean.setAllRow(allRow);
+		pageBean.setTotalPage(totalPage);
+		pageBean.setList(list);
+		pageBean.init();
+		return pageBean;
+	}
+
+	public Serializable addClient(Client client) {
+		Serializable s=clientDao.addClient(client);
+		return s;
+	}
+
+	public void delClient(long clientid) {	
+		clientDao.delClient(clientid);
+	}
+
+	public void modClient(Client client) {
+		clientDao.modClient(client);	
+	}
+
+	public List getRegions() {
+		return clientDao.getRegion();
+	}
+<<<<<<< .mine
+	
+	/**
+	 * laogan
+	 * */
+	public void modClient(long cid,long pid){
+		Client c = clientDao.getbyid(cid);
+		c.setPersonid(pid);
+		this.modClient(c);
+	}
+	
+=======
+
+	public List<ClientLostVo> findlostClient() {
+		List<Map> lsList=clientDao.findlostClient();
+		List<ClientLostVo> cvos = new ArrayList<ClientLostVo>();
+		ClientLostVo cvo=new ClientLostVo();
+		for(Map m:lsList){
+			Date date=new Date();		
+			DateFormat fmt =new SimpleDateFormat("yyyy-MM-dd"); 
+			Date date2;
+			try {
+				date2 = fmt.parse(m.get("0").toString());
+				int differ=(int) ((date.getTime()-date2.getTime())/(24*60*60*1000));
+				if(differ==170){
+					Client c=clientDao.getbyname(m.get("1").toString());
+					cvo=p2v(c);
+					cvo.setLasttime(date2.toString());
+					cvos.add(cvo);
+				}
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		return cvos;
+	}
+	private ClientLostVo p2v(Client c){
+		ClientLostVo clvo=new ClientLostVo();
+		BeanUtils.copyProperties(c, clvo);
+		return clvo;
+	}
+>>>>>>> .r335
+}

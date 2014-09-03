@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id="clientAction" class="com.crm.action.ClientAction">
+		<property name="clientService" ref="clientService"></property>
+	</bean>
+	
+	<bean class="com.crm.service.impl.ClientService"  id="clientService">
+		<property name="clientDao" ref="clientDao"></property>
+		
+	</bean>
+	
+	<bean class="com.crm.dao.impl.ClientDao4Orcl"  id="clientDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	
+	 
+</beans>

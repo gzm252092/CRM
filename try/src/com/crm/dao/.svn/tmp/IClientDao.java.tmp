@@ -1,0 +1,70 @@
+package com.crm.dao;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+
+import com.crm.po.Client;
+
+
+
+public interface IClientDao {
+	/**
+	 * 找到客户的所有分布地区
+	 * @return
+	 */
+	
+	public List<Map> getRegion();
+	/**
+	 * 通过分页找到Client
+	 * @param offset
+	 * @param length
+	 * @return
+	 */
+	public List<Client> findall(int offset,int length);
+	/**
+	 * 返回数据库数据里的记录条数
+	 * @param hql
+	 * @return
+	 */
+	public int getAllRowCount(String hql);
+	/**
+	 * 向数据库里面添加客户
+	 * @param Client
+	 * @return
+	 */
+	Serializable addClient(Client Client);
+	/**
+	 * 修改客户信息
+	 * @param Client
+	 */
+	public void modClient(Client Client );
+	/**
+	 * 删除客户
+	 * @param Clientid
+	 */
+	public void delClient(long Clientid );
+	/**
+	 * 通过id查找客户
+	 * @param Clientid
+	 * @return
+	 */
+	public Client getbyid(long Clientid );
+	public Client getbyname(String name);
+	public List<Map> findlostClient();
+	
+	/**
+	 * 找到所有未分配账号的客户
+	 * @return
+	 */
+	public List<Client> findNewClient();
+	public List<String> getAllNames();
+	public List<Map> findlostclientstatis();
+	public List<Client> findHightClients() ;
+<<<<<<< .mine
+	public List<Client> getall();
+=======
+	public List<Client> findnamecomtainschar(String charname,int offset,int length);
+	public List<Client> findregioncomtainschar(String charregion,int offset,int length);
+>>>>>>> .r503
+}

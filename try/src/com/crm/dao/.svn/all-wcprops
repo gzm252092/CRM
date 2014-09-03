@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/b2c/!svn/ver/629/try/src/com/crm/dao
+END
+IWorkDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IWorkDao.java
+END
+IOrdrDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IOrdrDao.java
+END
+IPersonDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IPersonDao.java
+END
+IProOrdrDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IProOrdrDao.java
+END
+ILinkmanDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/ILinkmanDao.java
+END
+IPlanDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IPlanDao.java
+END
+IStepDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IStepDao.java
+END
+IRightDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IRightDao.java
+END
+IClientDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/629/try/src/com/crm/dao/IClientDao.java
+END
+ITaskListDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/ITaskListDao.java
+END
+IRoleRightDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IRoleRightDao.java
+END
+IProductDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/604/try/src/com/crm/dao/IProductDao.java
+END
+IRoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/src/com/crm/dao/IRoleDao.java
+END

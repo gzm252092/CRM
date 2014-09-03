@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/b2c/!svn/ver/629/try/src
+END
+struts-client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/b2c/!svn/ver/444/try/src/struts-client.xml
+END
+applicationContext-step.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/376/try/src/applicationContext-step.xml
+END
+applicationContext-order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/483/try/src/applicationContext-order.xml
+END
+struts-hredit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/b2c/!svn/ver/341/try/src/struts-hredit.xml
+END
+applicationContext-linkmans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/b2c/!svn/ver/452/try/src/applicationContext-linkmans.xml
+END
+applicationContext-clientmap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/510/try/src/applicationContext-clientmap.xml
+END
+applicationContext-client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/b2c/!svn/ver/287/try/src/applicationContext-client.xml
+END
+struts-hradd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/b2c/!svn/ver/341/try/src/struts-hradd.xml
+END
+struts-pageadd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/b2c/!svn/ver/358/try/src/struts-pageadd.xml
+END
+struts-roledel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/b2c/!svn/ver/417/try/src/struts-roledel.xml
+END
+struts-plan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/b2c/!svn/ver/306/try/src/struts-plan.xml
+END
+applicationContext-plan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/423/try/src/applicationContext-plan.xml
+END
+applicationContext-navigator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/441/try/src/applicationContext-navigator.xml
+END
+struts-authload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/345/try/src/struts-authload.xml
+END
+applicationContext-roleManagement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/417/try/src/applicationContext-roleManagement.xml
+END
+struts-roleedit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/417/try/src/struts-roleedit.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/b2c/!svn/ver/273/try/src/log4j.properties
+END
+struts-hrload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/b2c/!svn/ver/331/try/src/struts-hrload.xml
+END
+struts-roleadd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/b2c/!svn/ver/417/try/src/struts-roleadd.xml
+END
+applicationContext-pageManagement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/363/try/src/applicationContext-pageManagement.xml
+END
+struts-cmapload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/511/try/src/struts-cmapload.xml
+END
+struts-pageedit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/363/try/src/struts-pageedit.xml
+END
+struts-work.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/b2c/!svn/ver/377/try/src/struts-work.xml
+END
+applicationContext-work.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/523/try/src/applicationContext-work.xml
+END
+struts-proordr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/b2c/!svn/ver/429/try/src/struts-proordr.xml
+END
+applicationContext-proordr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/449/try/src/applicationContext-proordr.xml
+END
+applicationContext-common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/b2c/!svn/ver/322/try/src/applicationContext-common.xml
+END
+struts-navi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/b2c/!svn/ver/441/try/src/struts-navi.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/b2c/!svn/ver/523/try/src/hibernate.cfg.xml
+END
+struts-hrdel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/b2c/!svn/ver/331/try/src/struts-hrdel.xml
+END
+struts-pagedel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/b2c/!svn/ver/356/try/src/struts-pagedel.xml
+END
+struts-authmod.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/b2c/!svn/ver/352/try/src/struts-authmod.xml
+END
+struts-roleload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/416/try/src/struts-roleload.xml
+END
+applicationContext-authManagement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/b2c/!svn/ver/352/try/src/applicationContext-authManagement.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/b2c/!svn/ver/511/try/src/struts.xml
+END
+struts-person.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/b2c/!svn/ver/514/try/src/struts-person.xml
+END
+applicationContext-hrManagement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/b2c/!svn/ver/341/try/src/applicationContext-hrManagement.xml
+END
+applicationContext-person.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/b2c/!svn/ver/312/try/src/applicationContext-person.xml
+END
+struts-order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/b2c/!svn/ver/349/try/src/struts-order.xml
+END
+struts-step.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/b2c/!svn/ver/315/try/src/struts-step.xml
+END
+struts-linkmans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/422/try/src/struts-linkmans.xml
+END
+struts-pageload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/b2c/!svn/ver/353/try/src/struts-pageload.xml
+END

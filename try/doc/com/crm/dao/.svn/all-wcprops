@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao
+END
+IProductDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IProductDao.html
+END
+IWorkDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IWorkDao.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/package-frame.html
+END
+IProOrdrDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IProOrdrDao.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/package-summary.html
+END
+ILinkmanDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/ILinkmanDao.html
+END
+IPlanDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IPlanDao.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/package-tree.html
+END
+ITaskListDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/ITaskListDao.html
+END
+IRoleRightDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IRoleRightDao.html
+END
+IRoleDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IRoleDao.html
+END
+IPersonDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IPersonDao.html
+END
+IOrdrDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IOrdrDao.html
+END
+IStepDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IStepDao.html
+END
+IRightDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IRightDao.html
+END
+IClientDao.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/b2c/!svn/ver/596/try/doc/com/crm/dao/IClientDao.html
+END

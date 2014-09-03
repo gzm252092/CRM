@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id="orderAction" class="com.crm.action.OrdrAction">
+		<property name="ordrService" ref="ordrService"></property>
+	</bean>
+	
+	<bean class="com.crm.service.impl.OrdrService"  id="ordrService">
+		<property name="ordrDao" ref="ordrDao"></property>
+		
+	</bean>
+	
+	<bean class="com.crm.dao.impl.OrdrDao4Orcl"  id="ordrDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	
+	
+	 
+</beans>

@@ -1,0 +1,10 @@
+/* please use this file for your own styles 
+ * it's need for easiest update of newest wersions
+*/
+
+ .h{height: 180px;  }
+ .con{min-height:900px; margin-top:30px;}
+ 
+   .contente{padding-left:280px;}
+   .page{float:right;}
+   .headpage{float:right;}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id="authLoadAction" class="com.crm.action.AuthLoadAction">
+		<property name="authservice" ref="authService"></property>
+	</bean>
+	
+	<bean id="authModAction" class="com.crm.action.AuthModAction">
+		<property name="authservice" ref="authService"></property>
+	</bean>
+	
+	<bean class="com.crm.service.impl.AuthManagementService"  id="authService">
+		<property name="rightdao" ref="rightDao"></property>
+		<property name="roledao" ref="roleDao"></property>
+		<property name="rolerightdao" ref="roleRightDao"></property>
+	</bean>
+	
+	<bean class="com.crm.dao.impl.RightDao4Orcl"  id="rightDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean class="com.crm.dao.impl.RoleDao4Orcl"  id="roleDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean class="com.crm.dao.impl.RoleRightDao4Orcl"  id="roleRightDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	 
+</beans>

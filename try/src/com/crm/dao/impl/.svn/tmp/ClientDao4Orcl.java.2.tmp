@@ -1,0 +1,217 @@
+package com.crm.dao.impl;
+
+import java.io.Serializable;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.springframework.orm.hibernate3.HibernateCallback;
+import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+
+import com.crm.dao.IClientDao;
+import com.crm.dao.IPlanDao;
+
+import com.crm.po.Client;
+import com.crm.po.Ordr;
+import com.crm.po.Pln;
+import com.crm.po.Right;
+
+
+public class ClientDao4Orcl extends HibernateDaoSupport implements
+		IClientDao {
+
+	@SuppressWarnings("unchecked")
+	public List<Client> findall(final int offset, final int length) {
+		final String hql = " from Client ";
+		List<Client> list = getHibernateTemplate().executeFind(
+				new HibernateCallback() {
+					public List<Client> doInHibernate(Session session)
+							throws HibernateException, SQLException {
+						Query query = session.createQuery(hql);
+						query.setFirstResult(offset);
+						query.setMaxResults(length);
+						List<Client> list = query.list();
+						return list;
+					}
+				});
+		return list;
+	}
+
+	public int getAllRowCount(String hql) {
+		return getHibernateTemplate().find(hql).size();
+	}
+
+	public Serializable addClient(Client client) {
+		return getHibernateTemplate().save(client);
+	}
+
+	public void modClient(Client client) {
+		getHibernateTemplate().update(client);
+	}
+
+	public void delClient(long clientid) {
+		Client e = getbyid(clientid);
+		getHibernateTemplate().delete(e);
+
+	}
+
+	public Client getbyid(long clientid) {
+		return (Client) getHibernateTemplate().get(Client.class, clientid);
+	}
+	@SuppressWarnings("unchecked")
+	public List<Map> getRegion(){
+		 final String hql = " select new map(count(id), region) from Client group by region order by count(id) desc";
+		 
+		 List<Map> list = getHibernateTemplate().executeFind(
+					new HibernateCallback() {
+						public List<Map> doInHibernate(Session session)
+								throws HibernateException, SQLException {
+							Query query= session.createQuery(hql);
+							List<Map> list = query.list();
+							return list;
+						}
+					});
+		 
+		 return list;
+	}
+
+	@SuppressWarnings("unchecked")
+	public List<Client> findNewClient() {
+		// TODO Auto-generated method stub
+		//List<Client> newclients = new ArrayList<Client>();
+		final String hql = " from Client c where c.personid = ? ";
+		
+		List<Client> newclients = getHibernateTemplate().find(hql,0l);
+		
+		//for(int i=0;i<list.size();i++){
+	//		if(list.get(i).getPersonid()==0){//如果为空
+		//		newclients.add(list.get(i));
+		//	}
+	//	}
+		return newclients;
+	}
+	@SuppressWarnings("unchecked")
+	public List<Map> findlostClient() {
+		final String hql = " SELECT new Map(max(stime),clientname ) " +
+				"FROM Pln where styleid=3 group by clientname ";
+		List<Map> list = getHibernateTemplate().executeFind(
+				new HibernateCallback() {
+					public List<Map> doInHibernate(Session session)
+							throws HibernateException, SQLException {
+						Query query = session.createQuery(hql);
+						
+						List<Map> list = query.list();
+						return list;
+					}
+				});
+		return list;
+	}
+
+
+	public Client getbyname(String name) {
+		String hql = " from Client where name= ? ";
+		try {
+			Client client=(Client) getHibernateTemplate().find(hql,name).get(0);
+	
+			return client;
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		return null;
+		
+		
+	}
+
+	public List<String> getAllNames() {
+		List<String> names;
+		String hql = " select distinct(name) from Client ";
+		try {
+			names=getHibernateTemplate().find(hql);
+			return names;
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		return null;
+	}
+	@SuppressWarnings("unchecked")
+	public List<Map> findlostclientstatis() {
+		final String hql = "select new map(count(id),  substr(confirmtime, 0, 4) ) from "
+			+ "Client group by   substr(confirmtime, 0, 4)  order by substr(confirmtime, 0, 4) desc";
+List<Map> list = getHibernateTemplate().executeFind(
+		new HibernateCallback() {
+			public List<Map> doInHibernate(Session session)
+					throws HibernateException, SQLException {
+				Query query = session.createQuery(hql);
+			
+				List<Map> list = query.list();
+				return list;
+			}
+		});
+return list;
+	}
+
+	public List<Client> findHightClients() {
+		String hql = " from Client  where rownum< 21 order by chance desc";
+		try {
+			List<Client> clients=getHibernateTemplate().find(hql);
+			return clients;
+	
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		return null;
+		
+	}
+	@SuppressWarnings("unchecked")
+	public List<Client> findnamecomtainschar(final String charname,final int offset, final int length) {
+		final String hql = " from Client where name like ? ";
+		List<Client> list = getHibernateTemplate().executeFind(
+				new HibernateCallback() {
+					public List<Client> doInHibernate(Session session)
+							throws HibernateException, SQLException {
+						Query query = session.createQuery(hql);
+						  query.setString(0, "%"+charname+"%");
+						  query.setFirstResult(offset);
+							query.setMaxResults(length);
+						List<Client> list = query.list();
+						return list;
+					}
+				});
+		return list;
+	}
+	@SuppressWarnings("unchecked")
+	public List<Client> findregioncomtainschar(final String region, final int offset,
+			final int length) {
+		final String hql = " from Client where region like ? ";
+		List<Client> list = getHibernateTemplate().executeFind(
+				new HibernateCallback() {
+					public List<Client> doInHibernate(Session session)
+							throws HibernateException, SQLException {
+						Query query = session.createQuery(hql);
+						  query.setString(0, "%"+region+"%");
+						  query.setFirstResult(offset);
+							query.setMaxResults(length);
+						List<Client> list = query.list();
+						return list;
+					}
+				});
+		return list;
+	}
+
+	public List<Client> getall() {
+		// TODO Auto-generated method stub
+		String hql = " from Client ";
+		List<Client> lcs = getHibernateTemplate().find(hql);
+		return lcs;
+	}
+	
+	
+	
+
+
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="person" namespace="/" extends="json-default">
+        <action name="person_*" class="personAction"  method="{1}">
+        	<result name="json" type="json"></result>
+            <result name="success" type="redirect">/frame.jsp </result>
+            <result name="failure" type="redirect">/login.jsp </result>
+            <result name="client" type="redirect">/proIndex.jsp </result>
+            <result name="logout" type="redirect">/login.jsp </result>
+        </action>
+        
+    </package>
+</struts>

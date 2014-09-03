@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/b2c/!svn/ver/629/try/src/com/crm/action
+END
+PageDelAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/356/try/src/com/crm/action/PageDelAction.java
+END
+AuthModAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/352/try/src/com/crm/action/AuthModAction.java
+END
+AuthLoadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/345/try/src/com/crm/action/AuthLoadAction.java
+END
+RoleLoadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/416/try/src/com/crm/action/RoleLoadAction.java
+END
+PersonAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/514/try/src/com/crm/action/PersonAction.java
+END
+OrdrAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/483/try/src/com/crm/action/OrdrAction.java
+END
+RoleEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/417/try/src/com/crm/action/RoleEditAction.java
+END
+HrLoadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/322/try/src/com/crm/action/HrLoadAction.java
+END
+RoleAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/417/try/src/com/crm/action/RoleAddAction.java
+END
+StepAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/426/try/src/com/crm/action/StepAction.java
+END
+PageLoadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/353/try/src/com/crm/action/PageLoadAction.java
+END
+LinkmansAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/624/try/src/com/crm/action/LinkmansAction.java
+END
+ClientMapLoadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/b2c/!svn/ver/504/try/src/com/crm/action/ClientMapLoadAction.java
+END
+ClientAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/629/try/src/com/crm/action/ClientAction.java
+END
+HrEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/b2c/!svn/ver/341/try/src/com/crm/action/HrEditAction.java
+END
+PageEditAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/b2c/!svn/ver/363/try/src/com/crm/action/PageEditAction.java
+END
+WorkAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/531/try/src/com/crm/action/WorkAction.java
+END
+HrAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/b2c/!svn/ver/341/try/src/com/crm/action/HrAddAction.java
+END
+PageAddAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/358/try/src/com/crm/action/PageAddAction.java
+END
+RoleDelAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/421/try/src/com/crm/action/RoleDelAction.java
+END
+ProOrdrAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/b2c/!svn/ver/603/try/src/com/crm/action/ProOrdrAction.java
+END
+PlanAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/592/try/src/com/crm/action/PlanAction.java
+END
+NaviAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/b2c/!svn/ver/441/try/src/com/crm/action/NaviAction.java
+END
+HrDelAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/b2c/!svn/ver/334/try/src/com/crm/action/HrDelAction.java
+END
